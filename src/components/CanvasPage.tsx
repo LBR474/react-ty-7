@@ -14,7 +14,7 @@ import { Canvas } from "@react-three/fiber";
 import gsap from "gsap";
 
 // styles imports
-//import "../styles/main.scss";
+import "../index.scss";
 
 // three imports
 import * as THREE from "three";
