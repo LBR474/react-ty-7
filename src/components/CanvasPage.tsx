@@ -66,7 +66,7 @@ const CanvasPage: React.FC<Props> = ({ title, loggedIn }) => {
         ease: "power2.inOut",
         onComplete: () => {
           setTimeout(() => {
-            navigate("/tailing");
+            navigate("/react-ty-7/tailing");
           }, 3000);
         },
       });
