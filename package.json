@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://lbr474.github.io/react-ty-7/",
   "scripts": {
     "dev": "vite",
     "start": "react-scripts start",
