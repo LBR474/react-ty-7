@@ -3,7 +3,7 @@ import React, { ReactElement, useState, useEffect } from "react";
 //import styled from "@emotion/styled";
 import { gsap } from "gsap";
 
-//import "../styles/main.scss";
+import "../index.scss";
 import { useNavigate } from "react-router-dom";
 
 type HeadingProps = {
