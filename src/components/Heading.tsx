@@ -33,7 +33,7 @@ const Heading = ({
             duration: 2,
             onComplete: () => {
               setTimeout(() => {
-                navigate("/canvas");
+                navigate("/react-ty-7/canvas");
               }, 1000);
             },
           });

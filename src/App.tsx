@@ -23,7 +23,7 @@ function App() {
     <div>
       <Routes>
         <Route
-          path="/"
+          path="/react-ty-7"
           element={
             <Heading
               title={"Get things moving"}
@@ -33,17 +33,17 @@ function App() {
           }
         />
         <Route
-          path="/canvas"
+          path="/react-ty-7/canvas"
           element={
             loggedIn ? (
               <CanvasPage title="Canvas component" loggedIn />
             ) : (
-              <Navigate to="/" />
+              <Navigate to="/react-ty-7/canvas" />
             )
           }
         />
         <Route
-          path="/tailing"
+          path="/react-ty-7/tailing"
           element={<Tailing title={""} fillColor={""} loggedIn={false} />}
         />
       </Routes>
